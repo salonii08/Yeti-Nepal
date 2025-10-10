@@ -8,7 +8,7 @@ import { FiArrowUpRight } from 'react-icons/fi';
 
 const Nav = () => {
   return (
-    <div className='transition-all  z-[10000] fixed w-full  '>
+    <div className='  z-[10000]  w-full  '>
        <div className=' flex items-center justify-between mx-auto  w-[90%] mt-4 '>
       {/* logo */}
       <div>
