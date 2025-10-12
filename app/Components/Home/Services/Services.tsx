@@ -3,17 +3,17 @@ import { IoBagHandleOutline } from 'react-icons/io5'
 
 const Services = () => {
   return (
-    <section className="flex flex-col justify-center items-center min-h-screen bg-black text-white px-6 text-center">
+    <section className=" flex flex-col justify-center items-center min-h-screen bg-black text-white px-6 text-center gap-4">
    
-      <p className="text-[#3094CD] mb-2 inline-flex items-center gap-2">
+      <p className="text-[#3094CD] mb-2 inline-flex items-center gap-2 mt-[38px]">
         <IoBagHandleOutline />Professional Services
       </p>
 
-      <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-b from-[#FEFEFE] to-[#39B6FD] bg-clip-text text-transparent">
+      <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-6 bg-gradient-to-b from-[#FEFEFE] to-[#39B6FD] bg-clip-text text-transparent">
         Innovative Tech Solutions, <br /> For Modern Businesses!
       </h1>
 
-      <p className="text-[#fefefe] max-w-2xl mb-10 text-left">
+      <p className="text-[#fefefe] px-65 mb-10 xl:text-xl md:text-lg sm:text-sm text-left">
         From startups to enterprises, we deliver cutting-edge technology
         solutions that drive growth, efficiency, and competitive advantage.
       </p>
@@ -75,17 +75,17 @@ const Services = () => {
                 </h2>
             </div>
 
-            <p className="text-[#FEFEFE] text-base sm:text-lg leading-relaxed px-6 text-left">
+            <p className="text-[#FEFEFE] text-center text-md leading-relaxed px-6 text-bottom">
                 Let's discuss your project requirements and create a custom solution
                 that fits your needs and budget. Our team of experts is ready to bring
                 your vision to life.
             </p>
 
             <div className="flex justify-center flex-wrap gap-4">
-                <button className="bg-[#39B6FD] text-white px-6 py-3 rounded-md">
+                <button className="bg-[#39B6FD] text-white p-4 rounded-lg">
                 Start your Project
                 </button>
-                <button className="border border-[#39B6FD] text-white px-6 py-3 rounded-md ">
+                <button className="border border-[#39B6FD] text-white p-4 rounded-lg ">
                 Schedule Consultation
                 </button>
             </div>
