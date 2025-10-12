@@ -2,8 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div >
-      <div className=" h-screen flex  items-center mt-[70px] flex-col">
+      <div className=" h-[80vh] flex  items-center mt-[70px] flex-col ">
         <div className="relative flex flex-col items-center ">
           <h1 className="lg:text-7xl sm:text-5xl text-center font-bold bg-gradient-to-b from-[#FEFEFE] to-[#39B6FD] bg-clip-text text-transparent ">
             A Decade of Tech Expertise,
@@ -27,10 +26,10 @@ const Hero = () => {
           <h2 className=" text-[#EEC300] mt-[34px]  text-xl ">
             10 Years of Tech Experience — Serving Nepal & Beyond
           </h2>
-          <div className="absolute left-1/2 -translate-x-1/2 top-full mt-[48px] w-[50%] h-[40px] bg-[radial-gradient(ellipse_at_center,_rgba(57,182,253,1),_transparent_70%)] ">.</div>
+          <div className="absolute left-1/2 -translate-x-1/2 top-full mt-[48px] w-[50%] h-[40px] bg-[radial-gradient(ellipse_at_center,_rgba(57,182,253,1),_transparent_70%)]  ">.</div>
         </div> 
       </div>      
-    </div>
+    
   );
 };
 
