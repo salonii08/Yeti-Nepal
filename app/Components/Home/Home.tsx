@@ -3,6 +3,7 @@ import Hero from './Hero/Hero'
 import Technology from './Technology/Technology'
 import Services from './Services/Services'
 import Team from './Team/Team'
+import Project from './Project/Project'
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <Technology/>
       <Services />
       <Team/>
+      <Project/>
     </div>
   )
 }

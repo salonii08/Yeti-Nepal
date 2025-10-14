@@ -29,7 +29,7 @@ const Services = () => {
 
       <div className="flex flex-wrap justify-center gap-13 max-w-6xl mx-auto text-left">
         <div className="flex-1 min-w-[300px] max-w-[350px] border border-[#444444] rounded-lg p-6 bg-[#1B1818] hover:border-blue-400 transition">
-            <h3 className="text-[#FEFEFE] text-lg font-semibold mb-3 text-white">Web Development</h3>
+            <h3 className=" text-lg font-semibold mb-3 text-white">Web Development</h3>
             <p className="text-[#C9C9C9] mb-3">
             Custom websites and web applications that drive business growth with cutting-edge technology.
             </p>
@@ -55,7 +55,7 @@ const Services = () => {
         </div>
 
         <div className="flex-1 min-w-[300px] max-w-[350px] border border-[#444444] rounded-lg p-6 bg-[#1B1818] hover:border-blue-400 transition">
-            <h3 className="text-[#FEFEFE] text-lg font-semibold mb-3 text-white">Backend & API Development</h3>
+            <h3 className="text-lg font-semibold mb-3 text-white">Backend & API Development</h3>
             <p className="text-[#C9C9C9] mb-3">
             Robust, scalable backend systems and APIs that power modern applications.
             </p>
