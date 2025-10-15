@@ -86,8 +86,7 @@ const Team = () => {
         </p>
       </div>
 
-
-      <div className="w-full px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 mx-auto max-w-screen-xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 pb-12">
+      <div className="max-w-[1100px] mx-auto flex flex-wrap justify-start gap-x-6 gap-y-11 pb-6">
         {teamMembers.map((member, index) => (
           <div
             key={index}

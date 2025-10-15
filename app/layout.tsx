@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Space_Mono } from "next/font/google";
 import './globals.css';
 import Nav from "./Components/Home/Navbar/Nav";
+import Footer from "./Components/Home/Footer/Footer";
 
 const font= Space_Mono({
   weight:['400','700'],
@@ -25,6 +26,7 @@ export default function RootLayout({
       >
         {<Nav/>}
         {children}
+        {<Footer/>}
       </body>
     </html>
   );
