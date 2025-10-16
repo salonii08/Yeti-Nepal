@@ -86,36 +86,36 @@ const Team = () => {
         </p>
       </div>
 
-      <div className="w-full px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 mx-auto max-w-screen-xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 pb-12">
-  {teamMembers.map((member, index) => (
-    <div
-      key={index}
-      className="bg-black rounded-2xl overflow-hidden text-center hover:scale-105 transition-transform shadow-lg shadow-[#39B6FD]/20 p-5">
-      <div className="flex justify-center items-center bg-black rounded-2xl">
-        <Image
-          src={member.image}
-          alt={member.name}
-          className="object-contain rounded-2xl"/>
-      </div>
-      <div className="pt-4">
-        <h3 className="font-bold text-lg sm:text-xl text-white">{member.name}</h3>
-        <p className="text-gray-400 text-sm sm:text-base mb-3">{member.role}</p>
+      <div className="max-w-[1100px] mx-auto flex flex-wrap justify-start gap-x-6 gap-y-11 pb-6">
+        {teamMembers.map((member, index) => (
+          <div
+            key={index}
+            className="bg-black rounded-2xl overflow-hidden text-center hover:scale-105 transition-transform shadow-lg shadow-[#39B6FD]/20 p-5">
+            <div className=" flex justify-center items-center bg-black rounded-2xl">
+              <Image
+                src={member.image}
+                alt={member.name}
+                className="w-full h-full object-contain rounded-3xl"/>
+            </div>
 
-        <div className="flex justify-center gap-3 flex-wrap">
-          {member.skills.map((skill, idx) => (
-            <Image
-              key={idx}
-              src={skill}
-              alt="Skill"
-              className="w-6 h-6 sm:w-7 sm:h-7"
-            />
-          ))}
-        </div>
-      </div>
-    </div>
-  ))}
-</div>
+            <div className="pt-4">
+              <h3 className="font-bold text-lg sm:text-xl text-white">{member.name}</h3>
+              <p className="text-gray-400 text-sm sm:text-base mb-3">{member.role}</p>
 
+              <div className="flex justify-center gap-3 flex-wrap">
+                {member.skills.map((skill, idx) => (
+                  <Image
+                    key={idx}
+                    src={skill}
+                    alt="Skill"
+                    className="w-6 h-6 sm:w-7 sm:h-7"
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
 
 
     </section>
