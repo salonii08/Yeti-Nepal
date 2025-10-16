@@ -15,7 +15,8 @@ const Nav = () => {
        <Image src='/images/logo.png' alt='logo' width={60} height={60}/> 
       </div>
       <div className='text-white flex items-center justify-between gap-10'>
-        <h1 >Services</h1>
+        <Link href='/ServicePage'>Services</Link>
+       
         <h1>Careers</h1>
         
         <button className='bg-[#39B6FD] rounded-lg p-3 flex gap-2'> Contact Us

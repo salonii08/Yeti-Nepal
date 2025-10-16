@@ -1,8 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import bimal_gurung from "@/public/images/bimal_gurung.png";
+import hahaa from "@/public/images/hahaa.jpg";
 import bimaldai from "@/public/images/bimaldai.jpg";
-import ashmimgautam from "@/public/images/ashimgautam.jpg"
 import node from "@/public/images/node.png";
 import mongodb from "@/public/images/mongodb.png";
 import react from "@/public/images/react.png";
@@ -20,43 +19,43 @@ const teamMembers = [
   {
     name: "Bimal Gurung",
     role: "Founder & CEO",
-    image: bimaldai,
+    image: hahaa,
     skills: [react, node, mongodb, next],
   },
   {
     name: "Ashim Gautam",
     role: "Co-Founder",
-    image: bimaldai,
+    image: hahaa,
     skills: [python, node, mongodb, next],
   },
   {
     name: "Bimal Gurung",
     role: "Founder & CEO",
-    image: bimaldai,
+    image: hahaa,
     skills: [css, html, javascript, nuxt],
   },
   {
     name: "Saloni Pradhan",
     role: "Founder & CEO",
-    image: bimaldai,
+    image: hahaa,
     skills: [laravel, flutter, mongodb, next],
   },
   {
     name: "Bimal Gurung",
     role: "Founder & CEO",
-    image: bimaldai,
+    image: hahaa,
     skills: [react, node, mongodb, next],
   },
   {
     name: "Bimal Gurung",
     role: "Founder & CEO",
-    image: bimaldai,
+    image: hahaa,
     skills: [react, node, mongodb, next],
   },
   {
     name: "Bimal Gurung",
     role: "Founder & CEO",
-    image: bimaldai,
+    image: hahaa,
     skills: [react, node, mongodb, next],
   },
   {
